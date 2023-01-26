@@ -39,7 +39,7 @@ function concatenarNumeros() {
 
  if(candidatoEscolhido == false){
   alert("ERRO");
- }
+ };
 
 
 
