@@ -37,7 +37,7 @@ function concatenarNumeros() {
   numeroCandidato = parseInt(numeroCandidato);
   dados = candidatos.filter(function(candidatoEscolhido){
     if(true){
-      return candidatoEscolhido;
+      return dados;
     }else{
       return dados = "";
     }
