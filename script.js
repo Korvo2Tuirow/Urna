@@ -38,7 +38,7 @@ function concatenarNumeros() {
 
 
   if(dados = candidatos.filter(candidatoEscolhido => candidatoEscolhido.numero === numeroCandidato)){
-    return;
+    return dados;
   };
 
   mostrarDados()
