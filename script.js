@@ -39,7 +39,7 @@ function concatenarNumeros() {
     if(candidatoEscolhido == numeroCandidato){
       return candidatoEscolhido;
     }else{
-      return ddos = "";
+      return dados = "";
     }
   });// => candidatoEscolhido.numero === numeroCandidato);
 
