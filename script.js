@@ -35,9 +35,18 @@ function concatenarNumeros() {
   concatena2 = display2.innerHTML;
   numeroCandidato = concatena1 + concatena2;
   numeroCandidato = parseInt(numeroCandidato);
-  dados = candidatos.filter(candidatoEscolhido)// => candidatoEscolhido.numero === numeroCandidato);
+  dados = candidatos.filter(function(candidatoEscolhido){
+    if(candidatoEscolhido == numeroCandidato){
+      mostrarDados();
+    }else{
+      candidatoEscolhido = "";
+      mostrarDados();
+    }
+  });// => candidatoEscolhido.numero === numeroCandidato);
 
-  mostrarDados()
+  
+
+  
 }
 
 function mostrarDados(){
