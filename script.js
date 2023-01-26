@@ -8,6 +8,7 @@ let urna = document.querySelector("#urna");
 let final = document.querySelector("#fim");
 let voltar = document.querySelector("#back");
 let container = document.querySelector("container");
+let audio = document.querySelector('audio');
 
 function inserir(valor) {
   if (display1.innerHTML == "") {
@@ -56,7 +57,8 @@ function confirmar() {
   if (foto.innerHTML != "" && dados[0].numero !=''){
     final.style.display = "flex";
     final.classList.add("anima");
-    container.style.display = "none";
+    audio.play();
+    //container.style.display = "none";
   };
 }
 
