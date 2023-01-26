@@ -53,7 +53,7 @@ function mostrarDados() {
 confirma.addEventListener("click", confirmar);
 
 function confirmar() {
-  if (foto.innerHTML != "" && dados[0].numero ==''){
+  if (foto.innerHTML != "" && dados[0].numero !=''){
     final.style.display = "flex";
     final.classList.add("anima");
     container.style.display = "none";
