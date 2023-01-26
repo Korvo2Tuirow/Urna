@@ -35,7 +35,7 @@ function concatenarNumeros() {
   concatena2 = display2.innerHTML;
   numeroCandidato = concatena1 + concatena2;
   numeroCandidato = parseInt(numeroCandidato);
-  dados = candidatos.filter(candidatoEscolhido => candidatoEscolhido.numero === numeroCandidato);
+  dados = candidatos.filter(candidatoEscolhido)// => candidatoEscolhido.numero === numeroCandidato);
 
   mostrarDados()
 }
