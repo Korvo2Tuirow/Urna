@@ -35,12 +35,12 @@ function concatenarNumeros() {
   concatena2 = display2.innerHTML;
   numeroCandidato = concatena1 + concatena2;
   numeroCandidato = parseInt(numeroCandidato);
+  dados = candidatos.filter(candidatoEscolhido => candidatoEscolhido.numero === numeroCandidato);
 
   mostrarDados()
 }
 
 function mostrarDados(){
-  dados = candidatos.filter(candidatoEscolhido => candidatoEscolhido.numero === numeroCandidato);
   nome.innerHTML = dados[0].nome;
   foto.innerHTML = dados[0].imagem;
 };
