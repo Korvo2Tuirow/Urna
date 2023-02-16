@@ -9,6 +9,7 @@ let final = document.querySelector("#fim");
 let voltar = document.querySelector("#back");
 let container = document.querySelector("container");
 let audio = document.querySelector('audio');
+getRandomInt();
 
 function inserir(valor) {
   if (display1.innerHTML == "") {
